@@ -24,9 +24,21 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				surface: {
+					DEFAULT: 'hsl(var(--surface))',
+					secondary: 'hsl(var(--surface-secondary))'
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				chat: {
+					bg: 'hsl(var(--chat-bg))',
+					bubble: 'hsl(var(--chat-bubble))',
+					'bubble-user': 'hsl(var(--chat-bubble-user))',
+					text: 'hsl(var(--chat-text))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
